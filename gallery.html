@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gallery - Zero TO Hero Public School</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px 0;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <img src="images/logo.jpg" alt="School Logo" class="logo" />
+      <div>
+        <h1>Zero TO Hero Public School</h1>
+        <p class="tagline">“Lighting the Path to Knowledge”</p>
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="management.html">Management</a></li>
+        <li><a href="admission.html">Admission</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Gallery Section -->
+  <section class="about">
+    <div class="container">
+      <h2>Our School Gallery</h2>
+      <div class="gallery">
+        <img src="images/gallery/img1.jpeg" alt="Annual Function" />
+        <img src="images/gallery/img2.png" alt="Science Exhibition" />
+        <img src="images/gallery/img3.jpeg" alt="Classroom Activity" />
+        <img src="images/gallery/img4.avif" alt="Sports Day" />
+        <img src="images/gallery/img5.jpg" alt="Library" />
+        <img src="images/gallery/img6.jpeg" alt="Cultural Event" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Zero TO Hero Public School. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

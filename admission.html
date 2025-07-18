@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Admission - Zero TO Hero Public School</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container header-content">
+      <img src="images/logo.jpg" alt="School Logo" class="logo" />
+      <div>
+        <h1>Zero TO Hero Public School</h1>
+        <p class="tagline">“Lighting the Path to Knowledge”</p>
+      </div>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="staff.html">Staff</a></li>
+        <li><a href="management.html">Management</a></li>
+        <li><a href="admission.html" class="active">Admission</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Admission Info -->
+  <section class="about">
+    <div class="container">
+      <h2>Admission Process</h2>
+      <p>We welcome students from all backgrounds and provide equal opportunity for quality education. Admission is open for Nursery to Class 12.</p>
+      <ul>
+        <li>✔️ Admission form available online and at school office</li>
+        <li>✔️ Photocopy of birth certificate and previous marksheet required</li>
+        <li>✔️ Passport-size photo of student (2 copies)</li>
+        <li>✔️ Entrance test for classes above Grade 1</li>
+      </ul>
+
+      <p><strong>For queries:</strong> Call us at +91-9876543210 or visit the school office (Mon–Sat, 9am–1pm)</p>
+    </div>
+  </section>
+
+  <!-- Admission Form -->
+  <section class="about">
+    <div class="container">
+      <h2>Online Admission Enquiry</h2>
+      <form class="admission-form">
+        <label for="name">Student's Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter student's name" required />
+
+        <label for="class">Class Applying For:</label>
+        <select id="class" name="class" required>
+          <option value="">--Select--</option>
+          <option value="Nursery">Nursery</option>
+          <option value="KG">KG</option>
+          <option value="1">Class 1</option>
+          <option value="2">Class 2</option>
+          <option value="3">Class 3</option>
+          <!-- Add more classes as needed -->
+        </select>
+
+        <label for="phone">Parent's Contact Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter contact number" required />
+
+        <label for="message">Any Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Write your message..."></textarea>
+
+        <button type="submit" class="btn">Submit Enquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025Zero TO Hero Public School. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
